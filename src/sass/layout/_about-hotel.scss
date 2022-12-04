@@ -185,7 +185,7 @@
     @media screen and (min-width:1024px) {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/details-of-hotel/room-bg-md.jpg);
         padding-top: 48px;
-        padding-bottom: 96px;
+        padding-bottom: 0;
 
     }
 
@@ -279,6 +279,20 @@
     }
 
     @media screen and (min-width:1280px) {
+    }
+}
+
+.swipper--margin-left-no-padding {
+    padding-bottom: 96px !important;
+}
+
+.swipper--margin-detail {
+    flex-direction: row;
+    padding-left: 0;
+    margin-left: -15px;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 0;
     }
 }
 
