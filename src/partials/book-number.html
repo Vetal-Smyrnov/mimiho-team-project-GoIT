@@ -1,0 +1,35 @@
+<button type="button" class="button-test" data-modal-open-book-table>
+    Забронювати номер
+</button>
+
+<div class="backdrop backdrop--hidden" data-modal-book-table>
+    <div class="modal modal--rooms">
+        <button class="modal__button" type="button" data-modal-close>
+            <svg class="modal__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-close-back-icon"></use>
+            </svg>
+        </button>
+    </div>
+    <h2 class="modal__title">Забронювати номер</h2>
+    <form class="form">
+        <ul class="form__list">
+            <li class="form__item">
+                <label class="form__label">
+                    <input class="form__input" type="text" name="name" placeholder="Ваше ім’я" required />
+                    <span class="form__text">На кого забронювати номер?</span>
+                </label>
+            </li>
+            <li class="form__item tablet-desctop">
+                <label class="form__label ">
+                    <input class="form__input" type="tel" name="tel" placeholder="+38 (___) ___-__-__"
+                        pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$" minlength="19" id="tel" title="telephone-number"
+                        required />
+                    <span class="form__text">Номер телефону</span>
+                </label>
+            </li>
+            <li class="form__item">
+                <label class="form__label ">
+
+                </label>
+            </li>
+</div>
