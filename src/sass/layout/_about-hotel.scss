@@ -185,7 +185,7 @@
     @media screen and (min-width:1024px) {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/details-of-hotel/room-bg-md.jpg);
         padding-top: 48px;
-        padding-bottom: 0;
+        // padding-bottom: 0;
 
     }
 
@@ -247,9 +247,6 @@
 
 }
 
-.swipper--details-hotel {
-
-}
 .hotel-details__btn {
     display: flex;
     flex-direction: column;
@@ -257,14 +254,23 @@
     align-items: center;
     gap: 16px;
 
+    @media screen and (min-width:1020px) {
+        justify-content: flex-end;
+        margin-bottom: 96px;
+    }
+
     @media screen and (min-width:1280px) {
         justify-content: flex-end;
     }
 }
 .swipper-img {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 2px;
+    border-radius: 2px;
 }
+
+.swipper-img--hotel {
+     margin: 0 !important;
+ }
 
 .swipper--test {
 
@@ -280,10 +286,6 @@
 
     @media screen and (min-width:1280px) {
     }
-}
-
-.swipper--margin-left-no-padding {
-    padding-bottom: 96px !important;
 }
 
 .swipper--margin-detail {
@@ -326,15 +328,15 @@
 
 .swiper-button-prev.hotel-swiper--left {
     top: 328px !important;
-    left: 280px !important;
+    left: 300px !important;
 
     @media screen and (min-width: 1024px) {
-        top: 350px !important;
-        left: 540px !important;
+        top: 300px !important;
+        left: 533px !important;
     }
 
     @media screen and (min-width: 1280px) {
-        left: 720px !important;
+        left: 710px !important;
     }
 }
 
@@ -342,7 +344,12 @@
     top: 327px !important;
 
     @media screen and (min-width: 1024px) {
-        top: 350px !important;
+        top: 300px !important;
+        left: 584px !important;
+    }
+
+    @media screen and (min-width: 1280px) {
+        left: 766px !important;
     }
 
 }
