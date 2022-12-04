@@ -1,35 +1,51 @@
-<button type="button" class="button-test" data-modal-open-book-table>
-    Забронювати номер
-</button>
-
-<div class="backdrop backdrop--hidden" data-modal-book-table>
+<div class="backdrop backdrop--hidden" data-modal-book-room>
     <div class="modal modal--rooms">
-        <button class="modal__button" type="button" data-modal-close>
+        <button class="modal__button" type="button" data-modal-close-room>
             <svg class="modal__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-close-back-icon"></use>
             </svg>
         </button>
-    </div>
-    <h2 class="modal__title">Забронювати номер</h2>
-    <form class="form">
-        <ul class="form__list">
-            <li class="form__item">
-                <label class="form__label">
+        <h2 class="modal__title">Забронювати номер</h2>
+        <form class="form">
+            <div class="form__item">
+                <label class="form__label-number">
                     <input class="form__input" type="text" name="name" placeholder="Ваше ім’я" required />
                     <span class="form__text">На кого забронювати номер?</span>
                 </label>
-            </li>
-            <li class="form__item tablet-desctop">
-                <label class="form__label ">
+                <label class="form__label-number">
                     <input class="form__input" type="tel" name="tel" placeholder="+38 (___) ___-__-__"
                         pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$" minlength="19" id="tel" title="telephone-number"
                         required />
                     <span class="form__text">Номер телефону</span>
                 </label>
-            </li>
-            <li class="form__item">
-                <label class="form__label ">
-
+                <label class="form__label-number">
+                    <select class="select" name="count" id="">
+                        <option class="select__value">Двомісний люкс</option>
+                        <option class="select__value">Трьохмісний номер</option>
+                        <option class="select__value">Двомісний номер</option>
+                    </select>
+                    <span class="form__text">Категорія номеру</span>
                 </label>
-            </li>
-</div>
+                <label class="form__label-number form__select">
+                    <select class="select" name="count" id="">
+                        <option class="select__value">Сьогодні</option>
+                        <option class="select__value">Завтра</option>
+                        <option class="select__value">Післязавтра</option>
+                    </select>
+                    <span class="form__text">Дата заїзду</span>
+                </label>
+                <label class="form__label-number form__select">
+                    <select class="select" name="count" id="">
+                        <option class="select__value">Сьогодні</option>
+                        <option class="select__value">Завтра</option>
+                        <option class="select__value">Післязавтра</option>
+                    </select>
+                    <span class="form__text">Дата виїзду</span>
+                </label>
+            </div>
+            <button class="form__button" type="submit">
+                Оформити бронювання
+            </button>
+        </form>
+    </div>
+    <div class="modal-overlay"></div>

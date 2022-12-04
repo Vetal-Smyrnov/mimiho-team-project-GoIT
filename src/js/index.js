@@ -59,20 +59,20 @@ window.addEventListener('scroll', function () {
 
 
 /* JQuery solution */
-$('.js-open-modal').click(function () {
- let modalName = $(this).attr('data-modal');
- let modal = $(`.js-modal[data-modal=${modalName}]`);
+// $('.js-open-modal').click(function () {
+//  let modalName = $(this).attr('data-modal');
+//  let modal = $(`.js-modal[data-modal=${modalName}]`);
 
- modal.addClass('show');
- $('.modal-overlay').addClass('show');
-});
+//  modal.addClass('show');
+//  $('.modal-overlay').addClass('show');
+// });
 
-$('.js-close-modal').click(function () {
- $(this).parent('.modal').removeClass('show');
- $('.modal-overlay').removeClass('show');
-});
+// $('.js-close-modal').click(function () {
+//  $(this).parent('.modal').removeClass('show');
+//  $('.modal-overlay').removeClass('show');
+// });
 
-$('.modal-overlay').click(function () {
- $(this).removeClass('show');
- $('.modal.show').removeClass('show');
-});
+// $('.modal-overlay').click(function () {
+//  $(this).removeClass('show');
+//  $('.modal.show').removeClass('show');
+// });

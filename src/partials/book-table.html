@@ -1,7 +1,3 @@
-<button type="button" class="button-test" data-modal-open-book-table>
-    Забронювати столик
-</button>
-
 <div class="backdrop backdrop--hidden" data-modal-book-table>
     <div class="modal modal--restaurant">
         <button class="modal__button" type="button" data-modal-close>
@@ -11,49 +7,43 @@
         </button>
         <h2 class="modal__title">Забронювати столик</h2>
         <form class="form">
-            <ul class="form__list">
-                <li class="form__item">
-                    <label class="form__label">
-                        <input class="form__input" type="text" name="name" placeholder="Ваше ім’я" required />
-                        <span class="form__text">На кого забронювати столик?</span>
-                    </label>
-                </li>
-                <li class="form__item tablet-desctop">
-                    <label class="form__label ">
-                        <input class="form__input" type="tel" name="tel" placeholder="+38 (___) ___-__-__"
-                            pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$" minlength="19" id="tel"
-                            title="telephone-number" required />
-                        <span class="form__text">Номер телефону</span>
-                    </label>
-                </li>
-                <li class="form__item tablet-desctop">
-                    <label class="form__label form__select">
-                        <select class="select" name="count" id="">
-                            <!-- <option>1</option> -->
-                            <option class="select__value">2</option>
-                            <option class="select__value">3</option>
-                            <option class="select__value">4</option>
-                            <option class="select__value">5</option>
-                            <option class="select__value">6</option>
-                        </select>
-                        <span class="form__text">Столик на яку кількість осіб?</span>
-                    </label>
-                </li>
-                <li class="form__item">
-                    <label class="form__label form__select">
-                        <select class="select" name="count" id="">
-                            <option class="select__value">Сьогодні</option>
-                            <option class="select__value">Завтра</option>
-                            <option class="select__value">Післязавтра</option>
-                        </select>
-                        <span class="form__text">На яку дату бронювати?</span>
-                    </label>
-                </li>
-            </ul>
+            <div class="form__item">
+                <label class="form__label">
+                    <input class="form__input" type="text" name="name" placeholder="Ваше ім’я" id="name" required />
+                    <span class="form__text">На кого забронювати столик?</span>
+                </label>
+                <label class="form__label ">
+                    <input class="form__input" type="tel" name="tel" placeholder="+38 (___) ___-__-__"
+                        pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$" minlength="19" id="tel" title="telephone-number"
+                        required />
+                    <span class="form__text">Номер телефону</span>
+                </label>
+                <label class="form__label form__select">
+                    <select class="select" name="count" id="">
+                        <!-- <option>1</option> -->
+                        <option class="select__value">2</option>
+                        <option class="select__value">3</option>
+                        <option class="select__value">4</option>
+                        <option class="select__value">5</option>
+                        <option class="select__value">6</option>
+                    </select>
+                    <span class="form__text">Столик на яку кількість осіб?</span>
+                </label>
+                <label class="form__label form__select">
+                    <select class="select" name="count" id="">
+                        <option class="select__value" selected>Сьогодні</option>
+                        <option class="select__value">Завтра</option>
+                        <option class="select__value">Післязавтра</option>
+                    </select>
+                    <span class="form__text">На яку дату бронювати?</span>
+                </label>
+            </div>
+
             <button class="form__button" type="submit">
                 Оформити бронювання
             </button>
         </form>
     </div>
+</div>
 </div>
 <div class="modal-overlay"></div>
