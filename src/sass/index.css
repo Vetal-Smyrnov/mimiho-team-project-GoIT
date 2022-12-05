@@ -2939,6 +2939,10 @@ img {
   border-radius: 2px;
 }
 
+.swiper-slide--width {
+  width: 161px !important;
+}
+
 .swipper--margin {
   padding-left: 10px;
 }
@@ -3741,8 +3745,14 @@ img {
 .swiper-button-prev.swiper-button-prev--3adult-top,
 .swiper-button-next.swiper-button-prev--3adult-top {
   top: 288px !important;
+  right: 170px !important;
 }
 
+@media screen and (min-width: 1024px) {
+  .swiper-button-next.swiper-button-prev--3adult-top {
+    right: 344px !important;
+  }
+}
 .swiper--accent.swiper-container--margin {
   margin-left: 125px !important;
 }
@@ -3760,17 +3770,17 @@ img {
 
 @media screen and (max-width: 1023px) {
   .swiper-button-prev.swiper-button-prev--3adult-top {
-    left: 178px !important;
+    left: 10px !important;
   }
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-prev.swiper-button-prev--3adult-top {
-    left: 355px !important;
+    left: 10px !important;
   }
 }
 @media screen and (min-width: 1280px) {
   .swiper-button-prev.swiper-button-prev--3adult-top {
-    left: 338px !important;
+    left: 10px !important;
   }
 }
 .three-adult__button.button.button--black.link {
