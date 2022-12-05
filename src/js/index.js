@@ -134,7 +134,6 @@ const swiper = new Swiper('.swiper', {
 });
 
 new Swiper('.hero-slider', {
-  // Optional parameters
   loop: true,
   speed: 1000,
 
