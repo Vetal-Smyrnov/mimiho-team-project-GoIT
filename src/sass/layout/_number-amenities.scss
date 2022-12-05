@@ -1,6 +1,24 @@
 .amenities {
-    padding: 32px 0;
+    
     background-color: var(--light-background);
+
+    &__lines {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        @media screen and (min-width: 1280px) {
+            &:before {
+                content: "";
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 100%;
+                background: var(--vertical-lines-desktop);
+                width: 606px;
+           }
+       }
+    }
 
     &__title {
         margin-bottom: 16px;
@@ -100,7 +118,7 @@
             align-items: flex-end;
         }
 
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1280px) {
            margin-right: 113px;
         }
     }
