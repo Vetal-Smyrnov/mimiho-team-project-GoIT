@@ -258,3 +258,11 @@ img{
             right: 730px !important;
         }
 }
+
+.swiper-wrapper.swiper-wrapper--2adult-padding{
+  padding-bottom: 120px;
+}
+.swiper-button-prev.swiper-button-prev--2adult-top,
+.swiper-button-next.swiper-button-prev--2adult-top{
+  top: 288px !important;
+}
