@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 45px;
-    margin-bottom: 48px;
+    margin-bottom: 19px;
     height: 426px;
     margin-left: 65px;
   }
@@ -160,10 +160,15 @@
 
   }
 }
+.three-adult__button {
+  background-color: var(--color-black);
+  transition: background-color 250ms var(--timing-function);
+
+}
 @media screen and (min-width:1024px) {
   .three-adult__wrapper-button{
-          margin-top: -235px;
-      padding-bottom: 146px;
+      margin-top: -235px;
+      padding-bottom: 70px;
   }
 
 }
@@ -208,5 +213,8 @@ padding-bottom: 100px !important;
 @media screen and (min-width:1280px) {
   .swiper-button-prev.swiper-button-prev--3adult-top {
       left: 338px !important;
-    }
+    }}
+
+.three-adult__button.button.button--black.link{
+  margin-left: auto;
 }
