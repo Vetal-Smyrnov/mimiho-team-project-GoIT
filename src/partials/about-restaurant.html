@@ -1,44 +1,259 @@
-<section>
-  <div class="container">
-    <h2 class="restaurant__title visually-hidden">Our Restaurant</h2>
-    <p class="restaurant__subtitle">Amet minim mollit non</p>
-    <p class="restaurant__name">Mimino</p>
-    <p class="restaurant__text">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </p>
-    <img
-      class="restaurant__img"
-      src="./images/about-restaurant/restaurant-interior.jpg"
-      alt="кімната зі столами"
-    />
+<section class="section">
+  <div class="container container__lines">
+    <div class="restaurant--part">
+      <div>
+        <h2 class="restaurant__title visually-hidden">Our Restaurant</h2>
+        <p class="restaurant__subtitle">Amet minim mollit non</p>
+        <p class="restaurant__name">Mimiho</p>
+        <p class="restaurant__text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./images/about-restaurant/desktop/restaurant-interior.jpg   1x,
+            ./images/about-restaurant/desktop/restaurant-interior@2.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            ./images/about-restaurant/tablet/restaurant-interior.jpg   1x,
+            ./images/about-restaurant/tablet/restaurant-interior@2.jpg 2x
+          "
+          media="(min-width:1024px)"
+        />
+        <source
+          srcset="
+            ./images/about-restaurant/restaurant-interior.jpg   1x,
+            ./images/about-restaurant/restaurant-interior@2.jpg 2x
+          "
+          media="(max-width:1023px)"
+        />
+        <img
+          class="restaurant__img"
+          src="./images/about-restaurant/restaurant-interior.jpg"
+          alt="кімната зі столами"
+        />
+      </picture>
+    </div>
     <div class="restaurant-wrapper">
-      <img
-        src="./images/about-restaurant/oruri-jacome.jpg"
-        alt="кімната зі сторами лампами та колоною"
-      />
+      <picture>
+        <source
+          srcset="
+            ./images/about-restaurant/desktop/oruri-jacome.jpg   1x,
+            ./images/about-restaurant/desktop/oruri-jacome@2.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            ./images/about-restaurant/tablet/oruri-jacome.jpg   1x,
+            ./images/about-restaurant/tablet/oruri-jacome@2.jpg 2x
+          "
+          media="(min-width:1024px)"
+        />
+        <source
+          srcset="
+            ./images/about-restaurant/oruri-jacome.jpg   1x,
+            ./images/about-restaurant/oruri-jacome@2.jpg 2x
+          "
+          media="(max-width:1023px)"
+        />
+        <img
+          src="./images/about-restaurant/oruri-jacome.jpg"
+          alt="кімната зі сторами лампами та колоною"
+        />
+      </picture>
       <p class="restaurant__description">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <div>
-      <img
-        src="./images/about-restaurant/swiper1.jpg"
-        alt="рука з келихом вина"
-      />
-      <img src="./images/about-restaurant/swiper2.jpg" alt="стіл зі стравами" />
-      <img
-        src="./images/about-restaurant/swiper3.jpg"
-        alt="тарілки с келиками на столі"
-      />
-      <img src="./images/about-restaurant/swiper4.jpg" alt="стіл зі стравами" />
-      <img
-        src="./images/about-restaurant/swiper5.jpg"
-        alt="тарілки с келиками на столі"
-      />
+    <div class="swiper--accent">
+      <div class="swiper swiper-wrapper--height">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="
+                  ./images/about-restaurant/desktop/swiper1.jpg   1x,
+                  ./images/about-restaurant/desktop/swiper1@2.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/tablet/swiper1.jpg   1x,
+                  ./images/about-restaurant/tablet/swiper1@2.jpg 2x
+                "
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/swiper1.jpg   1x,
+                  ./images/about-restaurant/swiper1@2.jpg 2x
+                "
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-restaurant/swiper1.jpg"
+                alt="рука з келихом вина"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="
+                  ./images/about-restaurant/desktop/swiper2.jpg   1x,
+                  ./images/about-restaurant/desktop/swiper2@2.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/tablet/swiper2.jpg   1x,
+                  ./images/about-restaurant/tablet/swiper2@2.jpg 2x
+                "
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/swiper2.jpg   1x,
+                  ./images/about-restaurant/swiper2@2.jpg 2x
+                "
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-restaurant/swiper2.jpg"
+                alt="стіл зі стравами"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="
+                  ./images/about-restaurant/desktop/swiper3.jpg   1x,
+                  ./images/about-restaurant/desktop/swiper3@2.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/tablet/swiper3.jpg   1x,
+                  ./images/about-restaurant/tablet/swiper3@2.jpg 2x
+                "
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/swiper3.jpg   1x,
+                  ./images/about-restaurant/swiper3@2.jpg 2x
+                "
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-restaurant/swiper3.jpg"
+                alt="тарілки с келиками на столі"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="
+                  ./images/about-restaurant/desktop/swiper4.jpg   1x,
+                  ./images/about-restaurant/desktop/swiper4@2.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/tablet/swiper4.jpg   1x,
+                  ./images/about-restaurant/tablet/swiper4@2.jpg 2x
+                "
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/swiper4.jpg   1x,
+                  ./images/about-restaurant/swiper4@2.jpg 2x
+                "
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-restaurant/swiper4.jpg"
+                alt="стіл зі стравами"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="
+                  ./images/about-restaurant/desktop/swiper5.jpg   1x,
+                  ./images/about-restaurant/desktop/swiper5@2.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/tablet/swiper5.jpg   1x,
+                  ./images/about-restaurant/tablet/swiper5@2.jpg 2x
+                "
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="
+                  ./images/about-restaurant/swiper5.jpg   1x,
+                  ./images/about-restaurant/swiper5@2.jpg 2x
+                "
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-restaurant/swiper5.jpg"
+                alt="тарілки с келиками на столі"
+              />
+            </picture>
+          </li>
+        </ul>
+        <div>
+          <svg
+            class="swiper-button-prev"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.0834 14.9998H5.00581L11.0055 9.00012L9.5913 7.58594L1.17737 15.9999L9.5913 24.4138L11.0055 22.9996L5.00568 16.9998H31.0834V14.9998Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div>
+          <svg
+            class="swiper-button-next"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.4921 7.58594L21.0779 9.00012L27.0777 14.9999H1V17H27.0775L21.0779 22.9996L22.4921 24.4138L30.9061 15.9999L22.4921 7.58594Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
   </div>
 </section>

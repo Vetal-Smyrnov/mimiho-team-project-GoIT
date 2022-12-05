@@ -1,5 +1,5 @@
 .container {
- 
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -18,5 +18,33 @@
     width: var(--desktop);
     padding-left: 85px;
     padding-right: 85px;
+  }
+
+  &__lines {
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 100%;
+
+      @media screen and (max-width: 1023px) {
+        background: var(--vertical-lines-mobile);
+        width: 136px;
+      }
+
+      @media screen and (min-width: 1024px) {
+        background: var(--vertical-lines-tablet);
+        width: 468px;
+
+      }
+
+      @media screen and (min-width: 1280px) {
+        background: var(--vertical-lines-desktop);
+        width: 605px;
+      }
+    }
   }
 }

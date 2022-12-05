@@ -68,7 +68,7 @@
 
     &__title {
         margin-bottom: 24px;
-        transform: translateX(0.1em);
+        transform: translateX(19px);
 
         font-family: var(--font-logo);
         font-style: normal;
@@ -175,7 +175,7 @@
 
         @media screen and (max-width: 1023px) {
             position: absolute;
-            top: -93px;
+            top: -120px;
             right: 0;
         }
 
@@ -213,21 +213,6 @@
         }
     }
 
-    &__button {
-        min-width: 236px;
-        min-height: 48px;
-        padding: 0 24px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-
-        color: var(--color-primary);
-        background: rgba(0, 0, 0, 0.4);
-        border: 2px solid #FFFFFF;
-        border-radius: 25px;
-    }
-
     &__socials-list {
         display: flex;
         align-items: center;
@@ -245,10 +230,20 @@
         
     }
 
+    &__socials-item {
+        width: 24px;
+        height: 24px;
+    }
+  
     &__socials-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
         color: var(--color-primary);
         cursor: pointer;
-    }
+    }  
 
     &__socials-icon {
         fill: currentColor;
