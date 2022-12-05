@@ -1,0 +1,27 @@
+@import './../../node_modules/modern-normalize/modern-normalize.css';
+
+@import './abstracts/variables';
+@import './abstracts/fonts';
+@import './base/base';
+@import './base/buttons';
+@import './base/modal';
+
+@import './components/section';
+@import './components/container';
+@import './components/logo';
+@import './components/modal';
+
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero-homepage';
+@import './layout/hero-restaurant';
+@import './layout/hero-hotel';
+@import './layout/hero-number';
+@import './layout/number-amenities';
+@import './layout/contacts';
+@import './layout/menu';
+@import './layout/about_restaurant';
+@import './layout/about_kitchen';
+@import './layout/about-hotel';
+@import './layout/3-adult';
+@import './layout/2-adult';
