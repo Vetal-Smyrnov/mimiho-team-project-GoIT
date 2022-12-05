@@ -9,54 +9,54 @@ window.addEventListener('scroll', function () {
 });
 
   
-/* Book table */
+// /* Book table */
 
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-book-table]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    modal: document.querySelector("[data-modal-book-table]"),
-  };
+// (() => {
+//   const refs = {
+//     openModalBtn: document.querySelector("[data-modal-open-book-table]"),
+//     closeModalBtn: document.querySelector("[data-modal-close]"),
+//     modal: document.querySelector("[data-modal-book-table]"),
+//   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
+//   refs.openModalBtn.addEventListener("click", toggleModal);
+//   refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  function toggleModal() {
-    refs.modal.classList.toggle("backdrop--hidden");
-  }
-})();
+//   function toggleModal() {
+//     refs.modal.classList.toggle("backdrop--hidden");
+//   }
+// })();
 
 /* Book room */
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-book-room]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    modal: document.querySelector("[data-modal-book-room]"),
-  };
+// (() => {
+//   const refs = {
+//     openModalBtn: document.querySelector("[data-modal-open-book-room]"),
+//     closeModalBtn: document.querySelector("[data-modal-close]"),
+//     modal: document.querySelector("[data-modal-book-room]"),
+//   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
+//   refs.openModalBtn.addEventListener("click", toggleModal);
+//   refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  function toggleModal() {
-    refs.modal.classList.toggle("backdrop--hidden");
-  }
-})();
+//   function toggleModal() {
+//     refs.modal.classList.toggle("backdrop--hidden");
+//   }
+// })();
 
 /* Room price */
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-room-price]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    modal: document.querySelector("[data-modal-room-price]"),
-  };
+// (() => {
+//   const refs = {
+//     openModalBtn: document.querySelector("[data-modal-open-room-price]"),
+//     closeModalBtn: document.querySelector("[data-modal-close]"),
+//     modal: document.querySelector("[data-modal-room-price]"),
+//   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
+//   refs.openModalBtn.addEventListener("click", toggleModal);
+//   refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  function toggleModal() {
-    refs.modal.classList.toggle("backdrop--hidden");
-  }
-})();
+//   function toggleModal() {
+//     refs.modal.classList.toggle("backdrop--hidden");
+//   }
+// })();
 
 
 /* JQuery solution */
