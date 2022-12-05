@@ -169,3 +169,12 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width:1023px) {
+  .swiper-wrapper.swiper-wrapper--3adult-padding{
+padding-bottom: 100px !important;
+}
+}
+.swiper-button-prev.swiper-button-prev--3adult-top,
+.swiper-button-next.swiper-button-prev--3adult-top{
+  top: 288px !important;
+}

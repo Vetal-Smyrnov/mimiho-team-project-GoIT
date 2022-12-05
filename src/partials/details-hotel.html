@@ -1,5 +1,5 @@
 <section class="section section--hotel-bg">
-  <div class="container">
+  <div class="container container--hotel-detail">
     <div class="wrapper-hotel-details">
       <p class="hotel__name hotel__name--color">MIMIHO</p>
       <h2 class="hotel-details__title">Готель</h2>
@@ -8,8 +8,8 @@
         sint. Velit officia consequat duis enim velit mollit.
       </p>
     </div>
-    <div class="swipper--test">
-      <div class="swiper swipper--details-hotel">
+    <div class="swipper--margin swipper--margin-detail">
+      <div class="swiper swipper--margin-left-hotel swiper-wrapper--height">
         <ul class="swiper-wrapper swiper-wrapper--padding">
           <li class="swiper-slide">
             <picture>
@@ -59,7 +59,7 @@
                 "
               />
               <img
-                class="swipper-img"
+                class="bedroom-img"
                 src="./images/details-of-hotel/bed-sm.jpg"
                 alt="Кімната студія з ліжком"
               />
@@ -113,7 +113,7 @@
                 "
               />
               <img
-                class="swipper-img"
+                class="bedroom-img"
                 src="./images/details-of-hotel/food-sm.jpg"
                 alt="Кімната студія з ліжком"
               />
@@ -167,175 +167,43 @@
                 "
               />
               <img
-                class="swipper-img"
-                src="./images/details-of-hotel/client-sm.jpg"
-                alt="Кімната студія з ліжком"
-              />
-            </picture>
-          </li>
-          <li class="swiper-slide">
-            <picture>
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/bed-lg.webp    1x,
-                  ./images/details-of-hotel/bed-lg@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/bed-lg.jpg    1x,
-                  ./images/details-of-hotel/bed-lg@2x.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/bed-md.webp    1x,
-                  ./images/details-of-hotel/bed-md@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/bed-md.jpg    1x,
-                  ./images/details-of-hotel/bed-md@2x.jpg 2x
-                "
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/bed-sm.webp    1x,
-                  ./images/details-of-hotel/bed-sm@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/bed-sm.jpg    1x,
-                  ./images/details-of-hotel/bed-sm@2x.jpg 2x
-                "
-              />
-              <img
-                class="swipper-img"
-                src="./images/details-of-hotel/bed-sm.jpg"
-                alt="Кімната студія з ліжком"
-              />
-            </picture>
-          </li>
-          <li class="swiper-slide">
-            <picture>
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/food-lg.webp    1x,
-                  ./images/details-of-hotel/food-lg@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/food-lg.jpg    1x,
-                  ./images/details-of-hotel/food-lg@2x.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/food-md.webp    1x,
-                  ./images/details-of-hotel/food-md@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/food-md.jpg    1x,
-                  ./images/details-of-hotel/food-md@2x.jpg 2x
-                "
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/food-sm.webp    1x,
-                  ./images/details-of-hotel/food-sm@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/food-sm.jpg    1x,
-                  ./images/details-of-hotel/food-sm@2x.jpg 2x
-                "
-              />
-              <img
-                class="swipper-img"
-                src="./images/details-of-hotel/food-sm.jpg"
-                alt="Кімната студія з ліжком"
-              />
-            </picture>
-          </li>
-          <li class="swiper-slide">
-            <picture>
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/client-lg.webp    1x,
-                  ./images/details-of-hotel/client-lg@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/details-of-hotel/client-lg.jpg    1x,
-                  ./images/details-of-hotel/client-lg@2x.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/client-md.webp    1x,
-                  ./images/details-of-hotel/client-md@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(min-width: 1024px)"
-                srcset="
-                  ./images/details-of-hotel/client-md.jpg    1x,
-                  ./images/details-of-hotel/client-md@2x.jpg 2x
-                "
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/client-sm.webp    1x,
-                  ./images/details-of-hotel/client-sm@2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width: 1023px)"
-                srcset="
-                  ./images/details-of-hotel/client-sm.jpg    1x,
-                  ./images/details-of-hotel/client-sm@2x.jpg 2x
-                "
-              />
-              <img
-                class="swipper-img"
+                class="bedroom-img"
                 src="./images/details-of-hotel/client-sm.jpg"
                 alt="Кімната студія з ліжком"
               />
             </picture>
           </li>
         </ul>
+        <div>
+          <svg
+            class="swiper-button-prev hotel-swiper--left"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.0834 14.9998H5.00581L11.0055 9.00012L9.5913 7.58594L1.17737 15.9999L9.5913 24.4138L11.0055 22.9996L5.00568 16.9998H31.0834V14.9998Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div>
+          <svg
+            class="swiper-button-next hotel-swiper--right"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.4921 7.58594L21.0779 9.00012L27.0777 14.9999H1V17H27.0775L21.0779 22.9996L22.4921 24.4138L30.9061 15.9999L22.4921 7.58594Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </div>
       <div class="hotel-details__btn">
         <button class="button button--transparent">Забронювати номер</button>

@@ -1,6 +1,7 @@
 @import 'section';
 @import 'container';
 @import '../components/logo';
+@import '../components/modal';
 
 @import '../layout/footer';
 @import '../layout/header';
@@ -8,9 +9,10 @@
 @import '../layout/hero-restaurant';
 @import '../layout/hero-hotel';
 @import '../layout/hero-number';
+@import '../layout/number-amenities';
 @import '../layout/contacts';
 @import '../layout/menu';
 // @import 'is-hidden';
-// @import 'logo';
 
-// @import 'modal';
+@import './two-adult';
+@import './two-adult-room';
