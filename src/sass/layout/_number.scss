@@ -1,0 +1,136 @@
+.number__list {
+    padding: 32px 0;
+
+
+    &__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: black;
+    text-transform: uppercase;
+    }
+
+    &__description {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+
+    @media screen and (min-width: 1026px) {
+        width: 757px;
+    }
+
+    @media screen and (min-width: 1368px) {
+        width: 757px;
+    }
+    }
+
+    &__item-title {
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    align-items: flex-start;
+    text-transform: uppercase;
+    }
+
+    &__box {
+    @media screen and (min-width: 1026px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 1368px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    }   
+
+    &__button {
+
+    @media screen and (min-width: 1026px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 47px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    }
+
+
+    @media screen and (min-width: 1368px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 198px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    }
+    }
+        &__item-description {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            color: #7A7A7A;
+            padding-bottom: 16px;
+    
+            @media screen and (min-width: 1026px) {
+                max-width: 400px;
+            }
+    
+            @media screen and (min-width: 1368px) {
+                max-width: 400px;
+            }
+        }
+    
+        &__item-description:nth-last-child(1) {
+            padding-bottom: 0;
+        }
+}
+
+.big {
+    @media screen and (min-width: 1026px) {
+        max-width: 450px;
+    }
+
+    @media screen and (min-width: 1368px) {
+        max-width: 500px;
+    }
+}
+
+.reservation__button {
+    width: 384px;
+    height: 64px;
+    background: #000000;
+    border: 1px solid #F3C653;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 1026px) {
+        width: 434px;
+        height: 64px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    @media screen and (min-width: 1368px) {
+        width: 434px;
+        height: 64px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

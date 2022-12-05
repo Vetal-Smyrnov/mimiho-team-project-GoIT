@@ -1,79 +1,253 @@
 <section class="section">
-  <div class="container">
-    <h2 class="kitchen__title">About our kitchen</h2>
-    <p class="kitchen__subtitle">Amet minim mollit non</p>
-    <p class="kitchen__name">MIMIHO</p>
-    <p class="kitchen__text">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </p>
-    <picture>
-      <!-- <source
-        media="(min-width: 1280px)"
-        srcset="
-          ./images/about-kitchen/desktop/restaurant-interior-lg.jpg    1x,
-          ./images/about-kitchen/desktop/restaurant-interior-lg@2x.jpg 2x
-        "
-      /> -->
-      <!-- <img
-        src="./images/about-kitchen/desktop/restaurant-interior.jpg"
-        alt="кухар тримає гарачу пательню і щипці над вогнем"
-        width="460"
-        height="574"
-        loading="lazy"
-      /> -->
-    </picture>
+  <div class="container container__lines">
     <div class="kitchen__wrapper">
+      <div>
+        <h2 class="kitchen__title visually-hidden">Our kitchen</h2>
+        <p class="kitchen__title-second">Amet minim mollit non</p>
+        <p class="kitchen__name">MIMIHO</p>
+        <p class="kitchen__text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
       <picture>
-        <!-- <source
+        <source
           media="(min-width: 1280px)"
+          srcset="
+            ./images/about-kitchen/desktop/restaurant-interior-lg.webp    1x,
+            ./images/about-kitchen/desktop/restaurant-interior-lg@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width:1280px)"
+          srcset="
+            ./images/about-kitchen/desktop/restaurant-interior-lg.jpg    1x,
+            ./images/about-kitchen/desktop/restaurant-interior-lg@2x.jpg 2x
+          "
+        />
+
+        <source
+          media="(min-width: 1024px)"
+          srcset="
+            ./images/about-kitchen/tablet/restaurant-interior-md.webp    1x,
+            ./images/about-kitchen/tablet/restaurant-interior-md@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width:1024px)"
+          srcset="
+            ./images/about-kitchen/tablet/restaurant-interior-md.jpg    1x,
+            ./images/about-kitchen/tablet/restaurant-interior-md@2x.jpg 2x
+          "
+        />
+
+        <source
+          media="(max-width: 1023px)"
+          srcset="
+            ./images/about-kitchen/restaurant-interior-sm.webp    1x,
+            ./images/about-kitchen/restaurant-interior-sm@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(max-width:1023px)"
+          srcset="
+            ./images/about-kitchen/restaurant-interior-sm.jpg    1x,
+            ./images/about-kitchen/restaurant-interior-sm@2x.jpg 2x
+          "
+        />
+        <img
+          class="kitchen__img"
+          src="./images/about-kitchen/restaurant-interior-sm.jpg"
+          alt="Кухар готує їжу"
+        />
+      </picture>
+    </div>
+    <div class="kitchen-element">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./images/about-kitchen/desktop/pexels-oruri-jacome-lg.webp    1x,
+            ./images/about-kitchen/desktop/pexels-oruri-jacome-lg@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width:1280px)"
           srcset="
             ./images/about-kitchen/desktop/pexels-oruri-jacome-lg.jpg    1x,
             ./images/about-kitchen/desktop/pexels-oruri-jacome-lg@2x.jpg 2x
           "
-        /> -->
-        <!-- <img
-          src="./images/about-kitchen/desktop/pexels-oruri-jacome.jpg"
-          alt="два шматки м'яса на дошці, поряд ніж, зелень та сіль"
-          width="460"
-          height="574"
-          loading="lazy"
-        /> -->
+        />
+
+        <source
+          media="(min-width: 1024px)"
+          srcset="
+            ./images/about-kitchen/tablet/pexels-oruri-jacome-md.webp    1x,
+            ./images/about-kitchen/tablet/pexels-oruri-jacome-md@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width:1024px)"
+          srcset="
+            ./images/about-kitchen/tablet/pexels-oruri-jacome-md.jpg    1x,
+            ./images/about-kitchen/tablet/pexels-oruri-jacome-md@2x.jpg 2x
+          "
+        />
+
+        <source
+          media="(max-width: 1023px)"
+          srcset="
+            ./images/about-kitchen/pexels-oruri-jacome-sm.webp    1x,
+            ./images/about-kitchen/pexels-oruri-jacome-sm@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(max-width:1023px)"
+          srcset="
+            ./images/about-kitchen/pexels-oruri-jacome-sm.jpg    1x,
+            ./images/about-kitchen/pexels-oruri-jacome-sm@2x.jpg 2x
+          "
+        />
+        <img
+          class="kitchen__img"
+          src="./images/about-kitchen/pexels-oruri-jacome-sm.jpg"
+          alt="М'ясо та приправи на столі"
+        />
       </picture>
-      <p>
+      <p class="kitchen__text-second">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <div>
-      <img
-        src="./images/about-kitchen/desktop/pexels-helena-lopes-lg.jpg"
-        alt="руки в борошні над тістом"
-        width="245"
-        height="245"
-        loading="lazy"
-      />
-      <img
-        src="./images/about-kitchen/desktop/pexels-mat-brown-lg.jpg"
-        alt="готова страва, хінкалі на тарілці"
-        width="245"
-        height="245"
-        loading="lazy"
-      />
-    </div>
-    <div class="kitchen__btn-swiper">
-      <!-- <button>
-        <svg class="kitchen__icon" width="" height="">
-          <use href=""></use>
-        </svg>
-      </button>
-      <button>
-        <svg class="kitchen__icon" width="" height="">
-          <use href=""></use>
-        </svg>
-      </button> -->
+    <div class="swiper--accent">
+      <div class="swiper">
+        <ul class="swiper-wrapper swiper-wrapper--height">
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/about-kitchen/desktop/swiper1.jpg 1x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/about-kitchen/tablet/swiper1.jpg 1x"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="./images/about-kitchen/swiper1.jpg 1x"
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-kitchen/swiper1.jpg"
+                alt="Повар замішує тісто"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/about-kitchen/desktop/swiper2.jpg 1x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/about-kitchen/tablet/swiper2.jpg 1x"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="./images/about-kitchen/swiper2.jpg 1x"
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-kitchen/swiper2.jpg"
+                alt="Приготовані хінкалі на столі"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/about-kitchen/desktop/swiper1.jpg 1x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/about-kitchen/tablet/swiper1.jpg 1x"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="./images/about-kitchen/swiper1.jpg 1x"
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-kitchen/swiper1.jpg"
+                alt="Повар замішує тісто"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/about-kitchen/desktop/swiper2.jpg 1x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/about-kitchen/tablet/swiper2.jpg 1x"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="./images/about-kitchen/swiper2.jpg 1x"
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-kitchen/swiper2.jpg"
+                alt="Приготовані хінкалі на столі"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/about-kitchen/desktop/swiper1.jpg 1x"
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="./images/about-kitchen/tablet/swiper1.jpg 1x"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="./images/about-kitchen/swiper1.jpg 1x"
+                media="(max-width:1023px)"
+              />
+              <img
+                src="./images/about-kitchen/swiper1.jpg"
+                alt="Повар замішує тісто"
+              />
+            </picture>
+          </li>
+        </ul>
+        <div>
+          <svg width="32" height="32" aria-label="icon-arrow-left">
+            <use
+              class="swiper-button-prev"
+              href="./images/icons.svg#icon-arrow-left"
+            ></use>
+          </svg>
+        </div>
+        <div>
+          <svg width="32" height="32" aria-label="icon-arrow-right">
+            <use
+              class="swiper-button-next"
+              href="./images/icons.svg#icon-arrow-right"
+            ></use>
+          </svg>
+        </div>
+      </div>
     </div>
   </div>
 </section>

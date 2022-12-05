@@ -34,5 +34,11 @@
     <symbol id="right-arrow" viewBox="0 0 30 17">
     <path d="M21.5595 0L20.1409 1.42865L26.1595 7.48984H0V9.51036H26.1594L20.1409 15.5713L21.5595 17L30 8.5L21.5595 0Z"></path>
     </symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path d="M22.492 7.586l-1.414 1.414 6 6h-26.078v2h26.078l-6 6 1.414 1.414 8.414-8.414-8.414-8.414z"></path>
+</symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path d="M31.083 15h-26.078l6-6-1.414-1.414-8.414 8.414 8.414 8.414 1.414-1.414-6-6h26.078v-2z"></path>
+</symbol>
   </defs>
 </svg>
