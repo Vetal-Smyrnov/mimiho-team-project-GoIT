@@ -326,11 +326,19 @@
 }
 
 .swiper-button-prev.hotel__btn--left {
-    // left: 10px !important;
+    left: 10px !important;
 }
 
 .swiper-button-next.hotel__btn--right {
-    right: 0px;
+    right: 237px;
+
+    @media screen and (min-width: 1024px) {
+        right: 340px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        right: 440px;
+    }
 }
 
 .swiper-button-prev.hotel-swiper--left {
@@ -359,4 +367,8 @@
         left: 900px !important;
     }
 
+}
+
+.swiper-slide--width {
+    width: 161px !important;
 }
