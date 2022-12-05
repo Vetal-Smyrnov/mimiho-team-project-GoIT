@@ -1,0 +1,215 @@
+<!-- Book Table Modal window -->
+
+<div class="modal" data-modal="1">
+        <button class="modal__button--cross js-modal-close" type="button">
+          <svg class="modal__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal__title--table">Забронювати столик</h2>
+        <form class="form">
+          <ul class="list form__list">
+            <li class="form__item form__item--table">
+              <label class="form__label">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше ім’я"
+                />
+                <span class="form__text">На кого забронювати столик?</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--table">
+               <input
+              class="form__input"
+              type="tel"
+              name="tel"
+              placeholder="+38 (___) ___-__-__"
+              pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+              minlength="19"
+              id="tel"
+              title="telephone-number"
+              required
+            />
+            <span class="form__text">Номер телефону</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--table">
+              <label class="form__label form__select">
+                   <select class="select" name="count" id="">
+                      <option class="select__value" value="1">1</option>
+                      <option class="select__value" value="2" selected>2</option>
+                      <option class="select__value" value="3">3</option>
+                      <option class="select__value" value="4">4</option>
+                      <option class="select__value" value="5">5</option>
+                      <option class="select__value" value="6">6</option>
+                   </select>
+                <span class="form__text">Столик на яку кількість осіб?</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--table">
+              <label class="form__label form__select">
+                   <select class="select" name="count" id="">
+                      <option class="select__value" value="1" selected>Сьогодні</option>
+                      <option class="select__value" value="2">Завтра</option>
+                      <option class="select__value" value="3">Після завтра</option>                     
+                   </select>
+                <span class="form__text">На яку дату бронювати?</span>
+              </label>
+            </li>
+
+          </ul>
+          <button class="form__button" type="submit">
+            Оформити бронювання
+          </button>
+        </form>
+      </div>
+
+<!-- Book Room Modal window -->
+
+      <div class="modal" data-modal="2">
+        <button class="modal__button--cross js-modal-close" type="button">
+          <svg class="modal__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal__title--room">Забронювати номер</h2>
+        <form class="form">
+          <ul class="list form__list">
+            <li class="form__item form__item--room">
+              <label class="form__label">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше ім’я"
+                />
+                <span class="form__text">На кого забронювати столик?</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--room">
+               <input
+              class="form__input"
+              type="tel"
+              name="tel"
+              placeholder="+38 (___) ___-__-__"
+              pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+              minlength="19"
+              id="tel"
+              title="telephone-number"
+              required
+            />
+            <span class="form__text">Номер телефону</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--room">
+              <label class="form__label form__select">
+                 <select class="select" name="count" id="">
+                    <option class="select__value" value="1">Одномісний</option>
+                    <option class="select__value" value="2">Двомісний</option>
+                    <option class="select__value" value="3">Тримісний</option>
+                    <option class="select__value" value="4">Одномісний люкс</option>
+                    <option class="select__value" value="5" selected>
+                      Двомісний люкс
+                    </option>
+                    <option class="select__value" value="6">Тримісний люкс</option>
+                 </select>
+                 <span class="form__text">Категорія номеру</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--room">
+              <label class="form__label form__select">
+                   <select class="select" name="count" id="">
+                      <option class="select__value" value="1" selected>Сьогодні</option>
+                      <option class="select__value" value="2">Завтра</option>
+                      <option class="select__value" value="3">Після завтра</option>                     
+                   </select>
+                <span class="form__text">Дата заїзду</span>
+              </label>
+            </li>
+
+            <li class="form__item form__item--room">
+              <label class="form__label form__select">
+                   <select class="select" name="count" id="">
+                      <option class="select__value" value="1" selected>Сьогодні</option>
+                      <option class="select__value" value="2">Завтра</option>
+                      <option class="select__value" value="3">Після завтра</option>                     
+                   </select>
+                <span class="form__text">Дата виїзду</span>
+              </label>
+            </li>
+
+          </ul>
+          <button class="form__button" type="submit">
+            Оформити бронювання
+          </button>
+        </form>
+      </div>
+
+<!-- Room Price Modal window -->
+
+<div class="modal modal--prices" data-modal="3">
+    <button class="modal__button--cross js-modal-close" type="button">
+      <svg class="modal__icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title modal__title--price">Ціни на номер</h2>
+    <form class="form">
+      <ul class="list form__list">
+        <li class="form__item form__item--price">
+          <label class="form__label form__select">
+            <select class="select" name="count" id="">
+              <option class="select__value" value="1">Одномісний</option>
+              <option class="select__value" value="2">Двомісний</option>
+              <option class="select__value" value="3">Тримісний</option>
+              <option class="select__value" value="4">Одномісний люкс</option>
+              <option class="select__value" value="5" selected>
+                Двомісний люкс
+              </option>
+              <option class="select__value" value="6">Тримісний люкс</option>
+            </select>
+            <span class="form__text">Категорія номеру</span>
+          </label>
+        </li>
+
+        <li class="form__item form__item--price">
+          <label class="form__label form__select">
+            <select class="select" name="count" id="">
+              <option class="select__value" value="1" selected>1</option>
+              <option class="select__value" value="2">2</option>
+              <option class="select__value" value="3">3</option>
+              <option class="select__value" value="1">4</option>
+              <option class="select__value" value="2">5</option>
+              <option class="select__value" value="3">6</option>
+            </select>
+            <span class="form__text">Кількість ночей</span>
+          </label>
+        </li>
+
+        <li class="form__item form__item--price">
+          <label class="form__label">
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              placeholder="1000"
+            />
+            <span class="form__text">грн</span>
+          </label>
+        </li>
+      </ul>
+      <button class="form__button" type="submit">Забронювати номер</button>
+    </form>
+  </div>
+
+<!-- Overlay -->
+
+  <div class="overlay js-overlay-modal"></div>
