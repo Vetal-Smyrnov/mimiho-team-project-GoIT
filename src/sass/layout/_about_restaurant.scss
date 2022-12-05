@@ -152,16 +152,17 @@
         }
         
 }
-.swiper--accent{
-    margin-left: 64px !important;
-        @media screen and (min-width:1024px) {
-            margin-top: -75px;
-            margin-left: 500px !important;
-        }
-        @media screen and (min-width:1280px) {
-            margin-top: -190px;
-            margin-left: 585px !important;
-        }
+
+.swiper--accent {
+  margin-left: 64px !important;
+  @media screen and (min-width: 1024px) {
+      margin-top: -173px;
+      margin-left: 491px !important;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: -190px;
+    margin-left: 585px !important;
+  }
 }
 .swiper-wrapper{
     padding-bottom: 72px;
