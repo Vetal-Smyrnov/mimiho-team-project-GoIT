@@ -266,3 +266,11 @@ img{
 .swiper-button-next.swiper-button-prev--2adult-top{
   top: 288px !important;
 }
+@media screen and (max-width: 1023px) {
+.swiper-button-prev.swiper-button-prev--2adult-top {
+  left: 178px !important;
+}}
+
+@media screen and (min-width: 1280px){ .swiper-button-prev.swiper-button-prev--2adult-top {
+  left: 338px !important;
+}}
