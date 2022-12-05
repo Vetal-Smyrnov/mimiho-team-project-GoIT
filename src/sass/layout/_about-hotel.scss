@@ -175,6 +175,14 @@
     }
 }
 
+.container--hotel-detail {
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 0;
+ 
+    }
+}
+
 .section--hotel-bg {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/details-of-hotel/room-bg-sm.jpg);
     background-repeat: no-repeat;
@@ -204,12 +212,12 @@
 
         @media screen and (min-width:1024px) {
                 width: 549px;
-                margin-left: 150px;
+                margin-left: 111px;
         }
 
         @media screen and (min-width:1280px) {
             width: 595px;
-            margin-left: 262px;
+            margin-left: 334px;
         }
 }
 
@@ -298,6 +306,13 @@
 }
 
 // hotel
+
+.swipper--margin-left-hotel {
+    @media screen and (min-width:1024px) {
+        margin-left: 0 !important;
+        padding-bottom: 96px !important;
+    }
+}
 
 .swiper--margin-right {
     margin-right: 64px !important;
