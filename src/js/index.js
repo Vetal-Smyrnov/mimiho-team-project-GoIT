@@ -50,15 +50,15 @@ const swiper = new Swiper('.swiper', {
 new Swiper('.hero-slider', {
   loop: true,
   speed: 1000,
-
+  allowTouchMove: false,
+  autoplay: {
+    delay: 5000,
+},
   navigation: {
     nextEl: '.hero-slider__button-next',
     prevEl: '.hero-slider__button-prev',
   },
 
-  mousewheel: {
-    sensitivity: 1,
-  },
 });
 
 // Modal windows
