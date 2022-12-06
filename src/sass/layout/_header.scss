@@ -91,6 +91,10 @@
   letter-spacing: 0.02em;
   color: var(--color-primary);
 
+  &:nth-of-type(even) {
+    margin-left: 16px;
+  }
+
   @media screen and (min-width: 1024px) {
     font-size: 20px;
     line-height: 1.2;
@@ -116,10 +120,6 @@
 
   @media screen and (min-width: 1024px) {
     display: block;
-  }
-
-  &--phone {
-    margin-left: 16px;
   }
 }
 
