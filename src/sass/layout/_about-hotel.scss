@@ -29,6 +29,17 @@
     }
 }
 
+.bedroom-img {
+    margin-bottom: 32px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 0;
+        margin-top: -25px;
+    }
+}
+
 .wrapper__hall {
     display: flex;
     gap: 21px;
@@ -179,6 +190,7 @@
     @media screen and (min-width:1024px) {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/details-of-hotel/room-bg-md.jpg);
         padding-top: 48px;
+        padding-bottom: 4px;
     }
 
     @media screen and (min-width:1280px) {
@@ -299,14 +311,14 @@
 
 .swipper-wrapper--margin-bottom {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 
     @media screen and (min-width: 1024px) {
-        margin-bottom: 47px;
+        margin-bottom: 0px;
     }
 
     @media screen and (min-width: 1280px) {
-        margin-bottom: 55px;
+        // margin-bottom: 55px;
     }
 }
 
@@ -336,7 +348,7 @@
 .swipper-button-wrapper {
     display: flex;
     gap: 32px;
-    padding-bottom: 10px;
+    padding-top: 35px;
 
     &-details {
         display: flex;
@@ -345,6 +357,7 @@
     }
 
     @media screen and (min-width: 1024px) {
+        padding-top: 46px;
         padding-bottom: 22px;
     }
 
@@ -355,20 +368,21 @@
 
 .swipper-button-wrapper-details {
     justify-content: end;
-    padding-bottom: 32px;
+    padding-top: 35px;
 
     @media screen and (min-width: 1024px) {
         position: absolute;
         top: auto;
-        left: 623px;
-        bottom: -7px;
+        left: 575px;
+        bottom: 15px;
         right: auto;
+        padding-top: 0;
     }
 
     @media screen and (min-width: 1280px) {
-        padding-bottom: 30px;
-        left: 844px;
-
+        padding-bottom: 0;
+        left: 840px;
+        bottom: 30px;
     }
 
 }
