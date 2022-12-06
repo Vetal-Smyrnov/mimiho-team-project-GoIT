@@ -36,14 +36,12 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 40,
     },
   },
+  
+  allowTouchMove: false,
 
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-
-  mousewheel: {
-    sensitivity: 1,
   },
 });
 
