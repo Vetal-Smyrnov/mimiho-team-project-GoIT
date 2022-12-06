@@ -234,13 +234,13 @@
     letter-spacing: 0.02em;
     width: 243px;
     color: var(--color-beige5);
-    margin-bottom: 48px;
+    padding-bottom: 48px;
 
     @media screen and (min-width:1024px) {
         width: 549px;
         font-size: 16px;
         max-width: 600px;
-        margin-bottom: 40px;
+        padding-bottom: 40px;
         }
 
     @media screen and (min-width:1280px) {
@@ -322,7 +322,10 @@
 }
 
 .swipper--margin-left-hotel {
+    margin-bottom: 35px;
+
     @media screen and (min-width:1024px) {
+        margin-bottom: 0;
         margin-left: 0 !important;
         padding-bottom: 96px !important;
     }
@@ -346,6 +349,12 @@
     gap: 32px;
     padding-bottom: 10px;
 
+    &-details {
+        display: flex;
+        gap: 32px;
+        padding-bottom: 10px;
+    }
+
     @media screen and (min-width: 1024px) {
         padding-bottom: 22px;
     }
@@ -353,6 +362,26 @@
     @media screen and (min-width: 1280px) {
         padding-bottom: 30px;
     }
+}
+
+.swipper-button-wrapper-details {
+    justify-content: end;
+    padding-bottom: 32px;
+
+    @media screen and (min-width: 1024px) {
+        position: absolute;
+        top: auto;
+        left: 623px;
+        bottom: -7px;
+        right: auto;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 30px;
+        left: 844px;
+
+    }
+
 }
 
 .swiper-button-prev.hotel__btn--left {
@@ -364,30 +393,33 @@
 }
 
 .swiper-button-prev.hotel-swiper--left {
-    top: 328px !important;
-    left: 300px !important;
+    position: static;
+
+    // top: 328px !important;
+    // left: 300px !important;
 
 
     @media screen and (min-width: 1024px) {
-        top: 300px !important;
-        left: 570px !important;
+        // top: 300px !important;
+        // left: 570px !important;
     }
 
     @media screen and (min-width: 1280px) {
-        left: 830px !important;
+        // left: 830px !important;
     }
 }
 
 .swiper-button-next.hotel-swiper--right {
-    top: 327px !important;
+    position: static;
+    // top: 327px !important;
 
     @media screen and (min-width: 1024px) {
-        top: 300px !important;
-        left: 635px !important;
+        // top: 300px !important;
+        // left: 635px !important;
     }
 
     @media screen and (min-width: 1280px) {
-        left: 900px !important;
+        // left: 900px !important;
     }
 
 }
