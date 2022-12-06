@@ -36,6 +36,8 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 40,
     },
   },
+  
+  allowTouchMove: false,
 
   navigation: {
     nextEl: '.swiper-button-next',
