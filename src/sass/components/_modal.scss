@@ -193,7 +193,7 @@
   padding: 18px 0;
 
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   text-transform: uppercase;
   cursor: pointer;
@@ -201,6 +201,10 @@
   background-color: var(--color-black);
   border: 1px solid var(--color-primary);
   border-radius: 2px;
+
+  @media screen and (min-width: 340px) {
+    font-size: 20px;
+  }
 
   @media screen and (min-width: 1024px) {
     font-size: 24px;
