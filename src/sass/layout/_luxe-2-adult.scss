@@ -206,3 +206,33 @@
 .luxe-two-adult__button.button.button--black.link {
   margin-left: auto;
 }
+.luxe2-swiper--margin-right{
+    margin-left: 64px !important;
+@media screen and (min-width:1024px) {
+        margin-top: -46px;
+    margin-right: 463px !important;
+}
+@media screen and (min-width:1280px) {
+    margin-right: 599px !important;
+}
+}
+.swiper-button-next.swiper-button-next--luxe2adult-btn{
+    top: 283px !important;
+  @media screen and (min-width:1024px) {
+      top: 257px !important;
+  }
+    @media screen and (min-width:1280px) {
+        top: 271px !important;
+    }
+}
+.swiper-button-prev.swiper-button-prev--luxe2adult-btn{
+    top: 283px !important;
+  @media screen and (min-width:1024px) {
+    top: 257px !important;
+      left: 314px !important;
+  }
+        @media screen and (min-width:1280px) {
+          top: 271px !important;
+          left: 356px !important;
+        }
+}

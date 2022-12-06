@@ -139,3 +139,26 @@
         padding-bottom: 32px;
     }
 }
+.swiper-button-prev.swiper-button-prev--2-adult-btn{
+    left: 233px !important;
+    @media screen and (min-width:1024px) {
+        left: 320px !important;
+    }
+    @media screen and (min-width:1280px) {
+    left: 352px !important;
+    top: 296px !important;
+    }
+}
+.swiper-button-next.swiper-button-next--2-adult-btn{
+    @media screen and (min-width:1280px) {
+        top: 296px !important;
+    }
+        
+}
+.two-adult-room__button-wrapper{
+    @media screen and (min-width:1024px) {
+        margin-top: -235px;
+        padding-bottom: 94px;
+    }
+
+}
