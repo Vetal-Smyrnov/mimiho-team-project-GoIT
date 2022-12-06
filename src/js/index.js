@@ -41,10 +41,6 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
-  mousewheel: {
-    sensitivity: 1,
-  },
 });
 
 new Swiper('.hero-slider', {
