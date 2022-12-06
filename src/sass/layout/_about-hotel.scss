@@ -32,13 +32,13 @@
 .wrapper__hall {
     display: flex;
     gap: 21px;
-    // padding-bottom: 32px;
+    padding-bottom: 32px;
 
     @media screen and (min-width: 1024px) {
         justify-content: flex-end;
         max-height: 475px;
         gap: 48px;
-        // padding-bottom: 0px;
+        padding-bottom: 0px;
     }
 
     @media screen and (min-width: 1280px) {
@@ -190,8 +190,6 @@
     @media screen and (min-width:1024px) {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/details-of-hotel/room-bg-md.jpg);
         padding-top: 48px;
-        // padding-bottom: 0;
-
     }
 
     @media screen and (min-width:1280px) {
@@ -305,6 +303,24 @@
 
 // hotel
 
+.swiper-wrapper--no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.swipper-wrapper--margin-bottom {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 47px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 55px;
+    }
+}
+
 .swipper--margin-left-hotel {
     @media screen and (min-width:1024px) {
         margin-left: 0 !important;
@@ -313,37 +329,44 @@
 }
 
 .swiper--margin-right {
-    padding-right: 64px !important;
+    margin-right: 64px !important;
 
     @media screen and (min-width: 1024px) {
         margin-top: -75px;
-        padding-right: 500px !important;
+        margin-right: 500px !important;
     }
 
     @media screen and (min-width: 1280px) {
-        padding-right: 580px !important;
+        margin-right: 580px !important;
+    }
+}
+
+.swipper-button-wrapper {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 1024px) {
+        padding-bottom: 22px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 30px;
     }
 }
 
 .swiper-button-prev.hotel__btn--left {
-    left: 10px !important;
+    position: static;
 }
 
 .swiper-button-next.hotel__btn--right {
-    right: 237px;
-
-    @media screen and (min-width: 1024px) {
-        right: 340px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        right: 440px;
-    }
+    position: static;
 }
 
 .swiper-button-prev.hotel-swiper--left {
     top: 328px !important;
     left: 300px !important;
+
 
     @media screen and (min-width: 1024px) {
         top: 300px !important;
