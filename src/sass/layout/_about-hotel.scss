@@ -430,6 +430,8 @@
 }
 
 .swiper-slide--width1 {
-    width: 161px !important;
+    @media screen and (max-width: 1279px) {
+        width: 161px !important;
+    }
 }
 
