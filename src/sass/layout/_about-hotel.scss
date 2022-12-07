@@ -258,10 +258,12 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    padding-left: 15px;
 
     @media screen and (min-width:1020px) {
         justify-content: flex-end;
         margin-bottom: 96px;
+        padding-left: 0;
     }
 
     @media screen and (min-width:1280px) {
