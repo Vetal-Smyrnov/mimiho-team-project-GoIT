@@ -218,6 +218,10 @@ img{
 }
 
 .swiper-button-prev {
+    @media screen and (min-width:320px) and (max-width:380px) {
+        top: 286px !important;
+        left: 144px !important;
+    }
     background-color: transparent;
     left: 226px !important;
     top: 310px !important;
@@ -231,6 +235,9 @@ img{
     }
 }
 .swiper-button-next {
+        @media screen and (min-width:320px) and (max-width:380px) {
+                top: 286px !important;
+            }
     background-color: transparent;
     top: 310px !important;
     right: 10px;
@@ -250,6 +257,9 @@ img{
         }
 }
 .swiper-button-prev--right{
+        @media screen and (min-width:320px) and (max-width:380px) {
+                left: 50px !important;
+            }
     top: 325px !important;
     right: 290px !important;
         @media screen and (min-width:1024px) {
