@@ -39,16 +39,15 @@
 }
 
 .bedroom-img {
-    padding-left: 15px;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 
     @media screen and (max-width: 1019px) {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
 
     @media screen and (max-width: 1023px) {
-        padding-left: 15px;
+        margin-left: 15px;
     }
 
     @media screen and (min-width: 1024px) {
@@ -56,6 +55,8 @@
         margin-top: -25px;
     }
 }
+
+
 
 .wrapper__hall {
     display: flex;
