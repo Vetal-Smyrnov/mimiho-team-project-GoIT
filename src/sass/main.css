@@ -3118,6 +3118,12 @@ img {
   left: 226px !important;
   top: 310px !important;
 }
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .swiper-button-prev {
+    top: 286px !important;
+    left: 144px !important;
+  }
+}
 @media screen and (min-width: 1024px) {
   .swiper-button-prev {
     top: 284px !important;
@@ -3135,6 +3141,11 @@ img {
   background-color: transparent;
   top: 310px !important;
   right: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .swiper-button-next {
+    top: 286px !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-next {
@@ -3160,6 +3171,11 @@ img {
 .swiper-button-prev--right {
   top: 325px !important;
   right: 290px !important;
+}
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .swiper-button-prev--right {
+    left: 50px !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-prev--right {
@@ -3924,6 +3940,13 @@ img {
   top: 275px !important;
   right: 170px !important;
 }
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .swiper-button-prev.swiper-button-prev--3adult-top,
+.swiper-button-next.swiper-button-prev--3adult-top {
+    top: 243px !important;
+    left: 75px !important;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .swiper-button-next.swiper-button-prev--3adult-top {
@@ -4092,6 +4115,11 @@ img {
 
 .swiper-button-prev.swiper-button-prev--2-adult-btn {
   left: 233px !important;
+}
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .swiper-button-prev.swiper-button-prev--2-adult-btn {
+    left: 150px !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-prev.swiper-button-prev--2-adult-btn {
