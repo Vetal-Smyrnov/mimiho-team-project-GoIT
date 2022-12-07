@@ -103,6 +103,7 @@
     background-size: cover;
     padding-top: 24px;
     padding-bottom: 40px;
+    max-width: 1280px;
         @media screen and (min-width:1024px) {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/tablet/back.jpg);
             padding-top: 48px;

@@ -1,5 +1,5 @@
 .amenities {
-    
+    z-index: 1;
     background-color: var(--light-background);
 
     &__lines {
@@ -9,7 +9,7 @@
             &:before {
                 content: "";
                 position: absolute;
-                z-index: 2;
+                z-index: -1;
                 top: 0;
                 left: 50%;
                 transform: translateX(-50%);
