@@ -31,6 +31,7 @@
   width: 100%;
   max-width: 414px;
   padding: 60px 15px;
+  transition: 250ms var(--timing-function);
 
   background: var(--light-background);
   border-radius: 2px;
