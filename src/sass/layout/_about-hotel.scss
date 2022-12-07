@@ -271,7 +271,6 @@
     }
 }
 .swipper-img {
-    // box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 }
 
@@ -291,7 +290,6 @@
         flex-direction: row;
     }
 }
-
 
 .swipper--margin-detail {
     flex-direction: row;
@@ -317,10 +315,6 @@
 
     @media screen and (min-width: 1024px) {
         margin-bottom: 0px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        // margin-bottom: 55px;
     }
 }
 
@@ -399,34 +393,10 @@
 
 .swiper-button-prev.hotel-swiper--left {
     position: static;
-
-    // top: 328px !important;
-    // left: 300px !important;
-
-
-    @media screen and (min-width: 1024px) {
-        // top: 300px !important;
-        // left: 570px !important;
-    }
-
-    @media screen and (min-width: 1280px) {
-        // left: 830px !important;
-    }
 }
 
 .swiper-button-next.hotel-swiper--right {
     position: static;
-    // top: 327px !important;
-
-    @media screen and (min-width: 1024px) {
-        // top: 300px !important;
-        // left: 635px !important;
-    }
-
-    @media screen and (min-width: 1280px) {
-        // left: 900px !important;
-    }
-
 }
 
 .swiper-slide--width1 {
