@@ -50,6 +50,14 @@
   @media screen and (min-width: 380px) {
     text-align: left;
   }
+
+  &:focus {
+    text-decoration: underline;
+  }
+&:hover {
+  text-decoration: underline;
+}
+
 }
 
 .footer__link {
