@@ -184,6 +184,10 @@
 .swiper-button-next.swiper-button-prev--3adult-top {
     top: 275px !important;
   right: 170px !important;
+      @media screen and (min-width:320px) and (max-width:380px) {
+          top: 243px !important;
+            left: 75px !important;
+        }
 }
 @media screen and (min-width: 1024px) {
   .swiper-button-next.swiper-button-prev--3adult-top {

@@ -12,8 +12,6 @@ window.addEventListener('scroll', function () {
 /* Swiper */
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
-  loop: true,
-
   breakpoints: {
     320: {
       slidesPerView: 1.2,
@@ -36,7 +34,7 @@ const swiper = new Swiper('.swiper', {
       spaceBetween: 40,
     },
   },
-  
+
   allowTouchMove: false,
 
   navigation: {
