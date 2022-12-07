@@ -429,7 +429,9 @@
 
 }
 
-.swiper-slide--width {
-    width: 161px !important;
+.swiper-slide--width1 {
+    @media screen and (max-width: 1279px) {
+        width: 161px !important;
+    }
 }
 
