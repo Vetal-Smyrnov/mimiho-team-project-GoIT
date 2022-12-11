@@ -1,63 +1,66 @@
 <section class="section contacts">
   <div class="container__lines--top">
-  <div class="contacts__container container">
-    <div class="contacts__container-contacts">
-      <h2 class="contacts__title visually-hidden">Контакти</h2>
-      <p class="contacts__subtitle" lang="en">MIMIHO</p>
-      <p class="contacts__desc">Ресторанно-готельний комплекс</p>
+    <div class="contacts__container container">
+      <div class="contacts__container-contacts">
+        <h2 class="contacts__title visually-hidden">Контакти</h2>
+        <p class="contacts__subtitle" lang="en">MIMIHO</p>
+        <p class="contacts__desc">Ресторанно-готельний комплекс</p>
         <ul class="list contacts__list">
           <li class="contacts__item">
-            <p class="contacts__restaurant">Ресторан</p>
+            <span class="contacts__restaurant">Ресторан</span>
+            <div class="contacts__container-restaurant">
+              <a
+                class="link contacts__link contacts__link--restaurant"
+                href="tel:+380955559533"
+              >
+                <svg
+                  class="contacts__icon"
+                  aria-label="Іконка телефону"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <span class="contacts__text">095 555 95 33</span>
+              </a>
+            </div>
           </li>
           <li class="contacts__item">
-            <a class="link contacts__link" href="tel:+380955559533">
-              <svg
-                class="contacts__icon"
-                aria-label="Іконка телефону"
-                width="24"
-                height="24"
-              >
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              <span class="contacts__text">095 555 95 33</span>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <p class="contacts__hotel">Готель</p>
-          </li>
-          <li class="contacts__item">
-            <a class="link contacts__link" href="tel:+380668491089">
-              <svg
-                class="contacts__icon"
-                aria-label="Іконка телефону"
-                width="24"
-                height="24"
-              >
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              <span class="contacts__text">066 849 10 89</span>
-            </a>
-            <a class="link contacts__link" href="tel:+380672758540">
-              <span class="contacts__text contacts__text--phone"
-                >067 275 85 40</span
-              >
-            </a>
+            <span class="contacts__hotel">Готель</span>
+            <div class="contacts__container-mobile">
+              <a class="link contacts__link" href="tel:+380668491089">
+                <svg
+                  class="contacts__icon"
+                  aria-label="Іконка телефону"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <span class="contacts__text">066 849 10 89</span>
+              </a>
+              <a class="link contacts__link" href="tel:+380672758540">
+                <span class="contacts__text contacts__text--phone"
+                  >067 275 85 40</span
+                >
+              </a>
+            </div>
           </li>
         </ul>
-      <div class="contacts__container-link-map">
-        <a
-          class="contacts__link-map"
-          href="https://goo.gl/maps/xowxYBsVFAnUarYt8"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <svg class="contacts__icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-mark-map"></use>
-          </svg>
-          Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
-        >
+        <div class="contacts__container-link-map">
+          <a
+            class="contacts__link-map"
+            href="https://goo.gl/maps/xowxYBsVFAnUarYt8"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="contacts__icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-mark-map"></use>
+            </svg>
+            Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
+          >
+        </div>
       </div>
-    </div>
       <iframe
         class="contacts__map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.698410915083!2d34.52321241592186!3d49.599337856202865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d826021e9c03af%3A0x9d345b9ebd99b550!2z0YPQuy4g0JzQsNGA0YjQsNC70LAg0JHQuNGA0Y7Qt9C-0LLQsCwgMTUsINCf0L7Qu9GC0LDQstCwLCDQn9C-0LvRgtCw0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMzYwMDA!5e1!3m2!1sru!2sua!4v1669921874093!5m2!1sru!2sua"
@@ -66,6 +69,6 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-  </div>
+    </div>
   </div>
 </section>
