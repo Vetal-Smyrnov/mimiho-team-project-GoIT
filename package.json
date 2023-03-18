@@ -1,21 +1,21 @@
 {
-  "name": "our-dream",
+  "name": "mimiho",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://OlegSyrovatko.github.io/our-dream",
+  "homepage": "https://VolodymyrDerkach97.github.io/mimiho-team-project-GoIT",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /our-dream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OlegSyrovatko/our-dream.git"
+    "url": "git+https://github.com/VolodymyrDerkach97/mimiho-team-project-GoIT.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OlegSyrovatko/our-dream/issues"
+    "url": "https://github.com/VolodymyrDerkach97/mimiho-team-project-GoIT/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
