@@ -5,7 +5,7 @@
   "homepage": "https://VolodymyrDerkach97.github.io/mimiho-team-project-GoIT",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /our-dream/"
+    "build": "parcel build src/*.html --public-url /mimiho-team-project-GoIT/"
   },
   "repository": {
     "type": "git",

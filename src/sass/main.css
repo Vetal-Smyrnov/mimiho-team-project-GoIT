@@ -3758,7 +3758,7 @@ img {
 }
 @media screen and (min-width: 320px) and (max-width: 380px) {
   .swiper-button-prev.swiper-button-prev--3adult-top,
-.swiper-button-next.swiper-button-prev--3adult-top {
+  .swiper-button-next.swiper-button-prev--3adult-top {
     top: 243px !important;
     left: 75px !important;
   }
